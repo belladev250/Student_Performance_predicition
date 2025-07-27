@@ -1,52 +1,24 @@
-Student Performance Prediction API & Flutter App
-Mission:
-To leverage machine learning to enhance educational outcomes and bridge the gap between 
-education and employment by predicting student performance and recommending personalized learning and career pathways guidance.
+# 🎓🐶 Student Performance Prediction API & Flutter App  
 
-🔗 Live API Endpoint
-https://student-performance-predicition-2.onrender.com
+## Mission  
+To leverage machine learning to enhance educational outcomes and bridge the gap between education and employment by predicting student performance and recommending personalized learning and career pathways guidance.
 
-API Documentation (Swagger UI)
-Access interactive API docs at:
-https://student-performance-predicition-2.onrender.com/docs
+## 🔗 Live API Endpoint  
+[https://student-performance-predicition-2.onrender.com](https://student-performance-predicition-2.onrender.com)  
 
-📱 Flutter Mobile App
-How to Run the App
-Prerequisites:
+### API Documentation (Swagger UI)  
+[https://student-performance-predicition-2.onrender.com/docs](https://student-performance-predicition-2.onrender.com/docs)  
 
-Flutter SDK installed (Installation Guide)
+## 📱 Flutter Mobile App  
 
-Android Studio / Xcode (for emulator) or a physical device
+### 🐕 How to Run the App (Dog-Friendly Version)  
+**Prerequisites:**  
+- Flutter SDK installed ([Installation Guide](https://docs.flutter.dev/get-started/install))  
+- Android Studio/Xcode (or a patient dog to wait while you set up)  
 
-Setup & Run:
-
-sh
-git clone <your-repo-link>  # Replace with your repository
-cd <project-folder>
-flutter pub get
-flutter run
-App Features:
-
-Predict student final grades (G3) based on academic & demographic factors
-
-Recommends study improvements & career pathways
-
-User-friendly input form with real-time results
-
-🎥 Demo Video
-YouTube Demo Link
-
-🛠 Tech Stack
-Backend: FastAPI (Python)
-
-ML Model: Scikit-Learn (Random Forest Regressor)
-
-Mobile App: Flutter (Dart)
-
-Hosting: Render
-
-📊 Problem Solved
-Many students struggle with academic performance due to lack of personalized guidance. This solution predicts outcomes early, allowing timely interventions for better educational and career success.
-
-Contributors: Bella Melissa Ineza
-License: MIT
+**Setup & Run:**  
+```sh
+git clone https://github.com/your-repo.git 
+cd student-performance-app
+flutter pub get 
+flutter run  #
