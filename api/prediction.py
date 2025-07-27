@@ -40,7 +40,7 @@ class StudentData(BaseModel):
     G2: conint(ge=0, le=20)             # Second period grade (0-20)
 
 from sklearn.preprocessing import OneHotEncoder
-import pandas as pd
+
 
 @app.post("/predict")
 def predict(data: StudentData):
