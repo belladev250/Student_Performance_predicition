@@ -40,14 +40,16 @@ class StudentData(BaseModel):
     G2: conint(ge=0, le=20)             # Second period grade (0-20)
 
 from sklearn.preprocessing import OneHotEncoder
-
+import pandas as pd
 
 @app.post("/predict")
 def predict(data: StudentData):
     try:
+        # 1. Create full 32-feature array with correct order
         full_features = np.zeros((1, 32))
         
-       
+        # 2. Map your existing 11 features to their positions
+        # Using the exact order from debug_features
         feature_mapping = {
             'school': 0,
             'sex': 1,
@@ -57,7 +59,7 @@ def predict(data: StudentData):
             'studytime': 13,
             'failures': 14,
             'famrel': 23,
-            'absences': 29,
+            'absences': 29, 
             'G1': 30,
             'G2': 31
         }
@@ -119,8 +121,3 @@ def debug_features():
         }
     except Exception as e:
         return {"error": str(e)}
-    
-
-@app.get("/")
-def read_root():
-    return {"message": "Student Grade Prediction API is running"}
