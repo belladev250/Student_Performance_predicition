@@ -1,4 +1,4 @@
-# 🎓🐶 Student Performance Prediction API & Flutter App  
+# 🎓 Student Performance Prediction API & Flutter App  
 
 ## Mission  
 To leverage machine learning to enhance educational outcomes and bridge the gap between education and employment by predicting student performance and recommending personalized learning and career pathways guidance.
@@ -11,7 +11,7 @@ To leverage machine learning to enhance educational outcomes and bridge the gap 
 
 ## 📱 Flutter Mobile App  
 
-### 🐕 How to Run the App (Dog-Friendly Version)  
+###  How to Run the App 
 **Prerequisites:**  
 - Flutter SDK installed ([Installation Guide](https://docs.flutter.dev/get-started/install))  
 - Android Studio/Xcode (or a patient dog to wait while you set up)  
