@@ -16,7 +16,12 @@ To leverage machine learning to enhance educational outcomes and bridge the gap 
 - Flutter SDK installed ([Installation Guide](https://docs.flutter.dev/get-started/install))  
 - Android Studio/Xcode (or a patient dog to wait while you set up)  
 
-**Setup & Run:**  
+**Setup & Run:** 
+
+
+  ## YOUTUBE VIDEO LINK
+https://youtu.be/zqx6QeDHWiQ7
+
 ```sh
 git clone https://github.com/your-repo.git 
 cd student-performance-app
